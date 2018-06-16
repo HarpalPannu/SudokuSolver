@@ -18,5 +18,4 @@ app.post ('/solve', function (req, res) {
 var httpServer = http.createServer ();
 httpServer.on ('request', app);
 
-console.log ('http://localhost:8000');
 httpServer.listen (process.env.PORT  || 8000);
